@@ -1,0 +1,39 @@
+.flexcontainer{
+   display: flex;
+   flex-direction: row;  
+}
+
+.flexitem{
+    background-color:aqua; 
+    border: 2px solid #971b1b;
+    margin: 12 px;
+    width: 450px;
+    height: 450px;
+}
+.Header{
+    display: flex;
+    flex-direction: row ;
+    background-color: #c9afaf;
+}
+.Footer{
+    display: flex;
+    flex-direction: row ;
+    background-color: #e78888;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    
+}
+#article{
+    flex: 1; 
+}
+#Aside{
+    background-color: azure;
+    flex: 0 0 20vw;
+}
+#Nav{
+    background-color: lightgray;
+    flex: 0 0 20vw;
+}
